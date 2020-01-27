@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <!-- Swap out "Roboto" for the font(s) you want to use -->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Muli|Roboto&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <!-- Your own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Sign Up</title>
+  </head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="fas fa-mountain"></i>Salkantay Trek</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="itinerary.html">Itinerary</a>
+          </li>
+          <li>
+            <a class="nav-item nav-link active" href="signup.html">Sign Up</a>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid jumbotron-signup">
+        <div class="container text-left">
+          <h1 class="display-4">Salkantay Trek</h1 class="display-4">
+          <p class="lead"> Spring Break 2020 </p>
+          <a class="btn btn-secondary btn-md" href="signup.html" role="button"> Sign Up Now!! </a>
+        </div>
+      </div>
+
+<!-- Main Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="section-title text-center"> Sign up for the trip! </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <form action="https://formspree.io/mvokylza" method = "POST">
+          <div class="form-group">
+              <label for = "full_name_input"> Your Full Name </label f>
+              <input type="text" name="full_name" class = "form-control" id = "full_name_input">
+          </div>
+
+          <div class="form-group">
+              <label> Kellogg Email </label>
+              <input type = "email" name="kellogg_email" class = "form-control" id = "kellogg_email">
+          </div>
+
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="JV Status" id="noJV" value="no_JV" checked>
+              <label class="form-check-label" for="noJV">
+                I don't have a JV coming
+              </label>
+          </div>
+          
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="JV Status" id="yesJV" value="yes_JV">
+              <label class="form-check-label" for="yes_JV">
+                My JV will be coming! 
+              </label>
+          </div>
+          <p></p>
+          <button class="btn btn-success">
+              Submit
+          </button c>
+          <p></p>
+        </form>
+      </div>
+    </div>
+  </div>
+<!-- footer -->
+    </div>
+    <div class="footer">
+      <div class="container questions">
+        <div class = "row">
+          <div class = "col-md-1">
+            <i class="fas fa-hiking fa-4x"></i>
+          </div>
+          <a href = "mailto:fake-email-address@kellogg.northwestern.edu?">
+             <h6> Questions? </h6>
+          </a>
+        </div>
+      </div>
+    </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.display-4 {
+    font-family: 'Lora', serif;
+}
+h1 {
+    font-family: 'Lora', serif;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+}
+
+.navbar {
+    background-color: white;
+}
+.container.video {
+    margin-bottom: 30px;
+}
+
+.maincontent {
+    margin-bottom: 50px;
+}
+
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(Salkantay-trek-hike-horses-kusa-treks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: black;
+  }
+  .jumbotron.jumbotron-signup {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(Salkantay-trek-hike-horses-kusa-treks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    /* The text-shadow helps the white text stand out better on a darker background */
+    color: black;
+  }
+
+  .footer {
+    background-color: #eaeaea;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
